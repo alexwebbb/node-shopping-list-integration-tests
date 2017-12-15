@@ -1,7 +1,6 @@
 language: node_js
 node_js: node
 deploy:
-  api_key:
-    secure: T/aUaJeBoYgZgmPio2kDD/hzeT2zt733jZwKkP8v7/zftKlbOlWBj4yPxDeTLivT1yEIBuMbyRCKY917iCleIIgpwPrrEmVbvxTwPVxsSqYIi9RJfvq+vEylo+4UKuJBTrLl0r9RjxajcGx4Gnmh8OOlDN8oJ5q398gpk4qKY2VxgcdR6+htQIrb/soAloL3yD4aFTh4OcmAR2Pw17f85JSF1VxavM/z78WF8qW+Rh6ODvfvmBUgcdm2j0WFGuaERxJwaEHl6TI0IC56/CMc36qi+0Rs8ITl2l3mxsR8TG8ELCU5g0ZVjCnyJAQ5vj+kb286fraALNVsD4HKw2YXTv72P53Uwft7W1ZBqqUDCHP51xoppUzC4E8YmnrY5hJ2LlINKlHGOlSYpp+hQ6SbQneFOeUD59HxivP1Kjy4FDmUNEf0KHhAc/4yo3/VQ1Qskg+25ZCeRDZGbd2tx8qGPHJHf8R+SI4duXdkDiQJVtLE5Y3OOEALcDyZAA/qKpONvraKq/C1zA4X++bYlfGSDV7GPuIDxcCVXb07/cTvHHKY8OWFMXi/fiaB17rmGCjlEImuTQWcB4vtT7wwjfxKHlkQRzwvw/04c9F0yQ8ujGIqCUuCVFEl1+SBqX9CnWgOblQRYIHxadW2EWh0cRdHq3i6a1EFf/7PD2oLlnZLAUo=
+    app: fathomless-lowlands-81734
   on:
     repo: alexwebbb/node-shopping-list-integration-tests
