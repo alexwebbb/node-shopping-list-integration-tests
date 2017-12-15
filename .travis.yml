@@ -1,6 +1,9 @@
 language: node_js
 node_js: node
 deploy:
-    app: fathomless-lowlands-81734
+  provider: heroku
+  api_key:
+    secure: IKInASyBl4ncw+Kx9RFq4Dh/j3ry6z8zI6igmiocu8UuBHrGZyuHyQORNDqaqfPH0QpVlywBCoNAGM/dFH4kwb7ay7inQLGPDcESSFKHkPX15X2uSEzEliCDczQAu72L4fPARQTAzIk0fzA2ofE0Vly0NYvCCTk1eGf6M/ATsoh/8ZkE9fs/lukgnf6DUlA2x9zfIrTewIgvMWDsX/iEkKl/YHLMs7kxuZpveDySBH4aq3X7tJ4TGNcTdlyELjmVjG51NZKS0DwALtwYjkf0o+5CCLJ7Pgv3DYHI22Bw0vnk3I1r2gRKxezjISdlXzQaXeYn3AlrVgNc004VJWR6jDTfDyoCV9BmqKyXxYicPL69iVpL+m8higu/EpBeVdMjXgqRGxiU3piehqNiDBeHBZxTkSVsiupx/wumqwZREySTYH+2MWlRjBqSiOJmUhP+TUResUgrUfmRfDW03ScpflB/70MZYxFetVJhHiWXM9T54tFCOtQO7V57ATdQALLDrzYynSDfP4xwYwEgWlzLTC9mcIsETMPBz9QaM0PkRvxBkSHunR5qcwzVITCO/OHs2K2IUIo0NrtGI9OmWKLiR3BgBbEP5IS0v4fioJvcy7v4lc3OSIxGEpgpE1gpYX4Mh+K1xdIVoyiE1oJzEqCDOw0rsW70AMm+6YgMdDV8BVQ=
+  app: fathomless-lowlands-81734
   on:
     repo: alexwebbb/node-shopping-list-integration-tests
